@@ -25,12 +25,8 @@ class Monitor: ObservableObject , Equatable{
             // on the main thread
             Task.detached { @MainActor in
                 if path.status == .satisfied {
-                    print("No connection.")
-
                     self.status = .connected
-
                 } else {
-                    print("We're connected!")
                     self.status = .disconnected
                 }
             }

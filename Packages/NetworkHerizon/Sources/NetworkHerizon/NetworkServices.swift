@@ -56,7 +56,6 @@ public struct NetworkService {
                 return try decoder.decode(type, from: data)
             } catch {
                 // catch error
-                print(error)
                 throw NetworkError.jsonConversionFailure(description: error.localizedDescription)
             }
     }
