@@ -1,0 +1,5 @@
+"navigation_title_home_matches" = "المباريات";
+"navigation_title_favorite_favorite" = "المفضلة";
+"number_of_matches" = "عدد المباريات: %d";
+"error_no_content_label" = "لا يوجد مباريات";
+"error_no_favorite_label" = "لا توجد مباريات مفضلة ، \n يرجى تحديد مفضل من المباريات";

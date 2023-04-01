@@ -1,0 +1,7 @@
+
+"navigation_title_home_matches" = "Matches";
+"navigation_title_favorite_favorite" = "Favorite";
+"number_of_matches" = "Numbers of Matches: %d";
+"error_no_content_label" = "No Matches yet";
+"error_no_favorite_label" = "No favorite matches, \n Please select a favorite from the matches";
+
