@@ -97,7 +97,6 @@ struct MatchRowFeature: ReducerProtocol {
                 }
                 return .delegate(.refresh)
             }catch: { error in
-                debugPrint(error)
                 return .delegate(.refresh)
             }
         case .formateDate:
@@ -115,7 +114,6 @@ struct MatchRowFeature: ReducerProtocol {
                 let away = try await network.loadCrests(match.awayTeam.id)
                 return .response(home: home, away: away)
             }catch: { error in
-                debugPrint(error)
                 return .formateDate
             }
         case let .response(home,away):
